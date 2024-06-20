@@ -1,7 +1,5 @@
 #!/bin/python3
 
-
-
 def CheckVowel():
     vowels_ls = ['a', 'o', 'i', 'u', 'e']
     char =  input("Enter a letter : ")
@@ -9,10 +7,6 @@ def CheckVowel():
         if char == i:
             return True
     return False
-            
-
-
-# print(type(vowels_ls[0]))
 
 while True:
     if(CheckVowel()):
