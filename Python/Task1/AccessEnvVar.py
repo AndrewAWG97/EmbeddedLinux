@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import os
 
 # List environment variables
@@ -9,7 +11,7 @@ for key, value in env_vars:
 
 while True:
     x = input('Enter desired VAR: ')
-    x = x.replace(" ", "_")  # Replace spaces with underscores
+    x = x.replace(" ", "_") 
     try:
         print(f"Output: {os.environ[x.upper()]}")
 
